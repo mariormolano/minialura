@@ -1,0 +1,240 @@
+body {
+	background-color: #F2F5F7;
+	font-family: 'Open Sans',Arial,sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+}
+
+.headerPrincipal {
+	background-color: #FFF;
+	padding: 20px 0;
+}
+
+.headerPrincipal-titulo {
+	font-weight: bold;
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
+.headerPrincipal-titulo a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.headerPrincipal-nav-link {
+	padding: 10px;
+	position: relative;
+	color: #9799A6;
+	background-color: #FFF;
+	text-decoration: none;
+	display: flex;
+	margin: 0 0 0 10px;
+	border-radius: 5px;
+	/* border: 1px solid #9799A6; */
+}
+
+
+.subtitulo {
+	font-weight: bold;
+	font-size: 32px;
+	margin-bottom: 28px;
+	text-align: center;
+	text-align: center;
+}
+
+.subtitulo2{
+	text-align:center;
+	margin-bottom: 30px;
+}
+
+.contenidoPrincipal {
+	/* color: #616161; */
+	margin: 20px 0;
+	flex-direction: column;
+}
+
+.descripcion-titulo{
+	display:none;
+}
+
+.contenidoPrincipal-cursos-link {
+	height: 100px;
+	width: 100px;
+	background-color: #F2F5F7;
+	text-align: center;
+	margin: 34px;
+	border-radius: 9px;
+}
+
+.contenidoPrincipal-cursos-link:hover {
+	background: linear-gradient(145deg, #F2F5F7, #ffffff);
+	box-shadow:  9px 9px 16px #9f9f9f,
+             -9px -9px 16px #ffffff;
+	transition: all 0.5s;
+}
+
+.contenidoPrincipal-cursos-link a {
+	text-decoration: none;
+	color: #396ca5;
+	font-weight: 900;
+	display: flex;
+	text-shadow: 0 0 2px white;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+	width: 100%;
+	height: 150px;
+	/* position: absolute; */
+	top: 0;
+	left: 0;
+}
+
+.descripcion-texo{
+	display: none;
+	top: -51px;
+	position: relative;
+}
+
+.rodapePrincipal {
+	background-color: #324C64;
+	padding-top: 20px;
+	flex-direction: column;
+}
+
+.rodapePrincipal .subtitulo {
+	color: #FFF;
+}
+
+.rodapePrincipal-navMap-link {
+	text-decoration: none;
+	color: #FFF;
+	margin-top: 10px;
+}
+
+.rodapePrincipal-navMap-link {
+	font-size: .9em;
+}
+
+.navmap-list-title {
+	text-align: center;
+	font-weight: 700;
+	font-size: 1.3em;
+	width: 160px;
+	cursor: pointer;
+	/* padding-left: .3em; */
+	/* padding-top: .2em; */
+	/* padding-bottom: .2em; */
+}
+
+.navmap-list-title + .rodapePrincipal-navMap-link {
+	margin-top: 0;
+}
+
+.navmap-list-title-bancoDeDados { color: #EC6E5A; border-bottom: 4px solid #EC6E5A; }
+.navmap-list-title-framework { color: #AD85BF; border-bottom: 4px solid #AD85BF; }
+.navmap-list-title-frontend { color: #5EC6F3; border-bottom: 4px solid #5EC6F3; }
+.navmap-list-title-backend {color: #25D285;border-bottom: 4px solid #25D285;}
+
+.rodapePrincipal-patrocinadores {
+	flex-direction: column;
+	margin-top: 30px;
+	background: #F2F5F7;
+	padding: 20px 0;
+}
+
+.rodapePrincipal-contatoForm {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.rodapePrincipal-contatoForm label[for=email-contato] {
+	font-weight: bold;
+	font-size: 14px;
+	color: #000;
+	margin-bottom: 5px;
+	display: block;
+}
+
+.rodapePrincipal-contatoForm-emailInput {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding: 10px;
+}
+
+.rodapePrincipal-contatoForm-submit {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color: #4DBA7A;
+	color: #FFF;
+	cursor: pointer;
+	
+}
+
+.rodapePrincipal-contatoForm-submit,
+.rodapePrincipal-contatoForm-emailInput {
+	outline: 0;
+	border: 1px solid #4DBA7A;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+.videoSobre .container {
+	color: #FFF;
+}
+
+.videoSobre-descripcion-title {
+	font-size: 1.8rem;
+	font-weight: bolder;
+	margin-bottom: 20px;
+}
+
+.videoSobre-button {
+	border-radius: 8px;
+	background-color: #ec6e5a;
+	display: block;
+	color: #FFF;
+	border: none;
+	height: 50px;
+	font-size: .8em;
+	outline: none;
+}
+
+.rodapePrincipal-contatoForm-legend {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+
+.headerPrincipal-nav-link:hover {
+	color: #FFF;
+	background-color: #9799A6;
+	transition: all 0.5s;
+	box-shadow: 3px 3px 5px black;
+	z-index: 900;
+}
+
+.headerPrincipal-titulo {
+	margin: 0;
+}
+
+.headerPrincipal-nav {
+	/* width: auto; */
+}
+
+.rodapePrincipal-contatoForm {
+	margin-top: 0;
+	text-align: left;
+}
+
+
+.contenidoPrincipal-cursos-link {
+	/* margin: 1.333%; */
+}
+
+
